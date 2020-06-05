@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  <span>Ribera Salud</span>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="over" closed>
+    <mat-chip-list aria-label="Fish selection">
+      <mat-chip color="accent" selected>Home</mat-chip>
+      <mat-chip color="accent" selected>New Albums</mat-chip>
+      <mat-chip color="accent" selected>Contact Us</mat-chip>
+      <mat-chip color="accent" selected>About Us</mat-chip>
+    </mat-chip-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <button mat-icon-button color="accent" (click)="sidenav.toggle()" >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <app-home></app-home>
+  </mat-sidenav-content>
+  <app-home></app-home>
+</mat-sidenav-container>
+<router-outlet></router-outlet>

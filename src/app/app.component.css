@@ -1,0 +1,17 @@
+mat-sidenav-container{
+    height: 100%;
+    width: 100%;
+}
+mat-sidenav, mat-sidenav-content{
+    padding: .02rem .5rem;
+}
+mat-sidenav{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+mat-chip-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
