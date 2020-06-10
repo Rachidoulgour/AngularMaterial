@@ -2,9 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 3rem;
+    margin: 0 11vw;
 }
-.albums{
+.spinner{
+    justify-content: center;
     width: 25%;
     margin: .5rem;
+    height: 100vh;
+}
+
+.albums{
+    width: 17.5rem;
+    margin: .5rem;
+}
+mat-card-content p{
+    width: 20rem;
 }
